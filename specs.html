@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google glass / ESPECIFICAÇÕES</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" href="_css/specs.css">
+</head>
+<script src="_javascript/script.js"></script>
+<body>
+<div id="interface">
+  <header id="cabecalho">
+   <hgroup>
+     <h1>Google Glass</h1>
+     <h2>A revolução do Google está chegando</h2>
+   </hgroup>   
+   <img id="icone" src="_imagens/especificacoes.png" alt="">
+   <nav id="menu">
+     <h1>Menu Principal</h1>
+     <ul>
+        <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="index.html ">Home</a></li>
+        <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="specs-txt.html">especificações</a></li>
+        <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fotos-txt.html">Fotos</a></li>
+        <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="multimidia-txt.html">Multimídia</a></li>
+        <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fale-conosco-txt.html">Fale Conosco</a></li>
+     </ul>
+   </nav>
+  </header>
+
+  <section id="corpo-full"> 
+    <article id="noticia-principal">
+      <header id="cabecalho-artigo">
+        <hgroup>
+          <h3>Google Glass / Especificações</h3>
+          <h1>Raio-X no Google glass</h1>
+          <h2>por Gustavo Guanabara</h2>
+          <h3 class="direita">Atualizado em 23/Abril/2013</h3>
+        </hgroup>
+      </header> 
+      <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+    </article> 
+  </section>
+
+  <section id="conteudo">
+   <img src="_imagens/glass-esquema-marcado.jpg" usemap="#meumapa">
+
+    <map name="meumapa">     
+      <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela"/>
+      <area shape="circle" coords="158,243,12" href="google-glass.html#camera" target="janela"/>
+      <area shape="circle" coords="73,52,12" href="google-glass.html#gadgets" target="janela"/>
+      <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" target="janela"/>
+      </map>
+
+    <iframe src="_textos/google-glass-txt.html" name="janela" id="frame-spec"></iframe>
+
+  </section>
+  
+ 
+
+
+  <footer id="rodape">
+    <p> Copyright &copy; 2021 - by João Mendes <br/>
+    <a href="" target="_blank" ></a>Facebook</a> | <a href="" target="_blank"></a> Twitter</a></p>
+  </footer>
+
+
+
+</div>
+</body>
+</html>
